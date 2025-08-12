@@ -1,0 +1,72 @@
+{"0": {
+    "doc": "QuestSLAM",
+    "title": "QuestSLAM",
+    "content": "This project enables streaming of Quest3/3s tracking information over ROS Bridge for SLAM Mapping. This pose information can be used to localize a robot in 3 dimentional space while being light and cost effective. The sensors aboard the Quest3 and 3s have an accuracy of . ",
+    "url": "/QuestSLAM#questslam",
+    
+    "relUrl": "/QuestSLAM#questslam"
+  },"1": {
+    "doc": "QuestSLAM",
+    "title": "Key Features",
+    "content": ". | Self-contained, rechargeable battery | Network based data transmission (wired and wireless) | Up to 120Hz tracking refresh rate | Built on Unity allowing for easy modification for special use cases | Powered by Qualcomm XR2G2 platform with multiple CPU/GPU cores, 8GB RAM, dedicated video hardware, and 128GB+ storage | . ",
+    "url": "/QuestSLAM#key-features",
+    
+    "relUrl": "/QuestSLAM#key-features"
+  },"2": {
+    "doc": "QuestSLAM",
+    "title": "How it works",
+    "content": "QuestSLAM is built on the Quest Visual-Inertial Odometry (VIO) system allowing it to track in 3d space with high levels of accuracy. | Capture data (IMU, VIO, Accelerometer) | Process data and add corvaience | Convert Unity coordinates to ROS cooordinates | Generate ROS2 messages (Odometry, Battery%, Velocity) | Send data over network (Ethernet or Wireless) | . ",
+    "url": "/QuestSLAM#how-it-works",
+    
+    "relUrl": "/QuestSLAM#how-it-works"
+  },"3": {
+    "doc": "QuestSLAM",
+    "title": "Current Features",
+    "content": ". | Odometry messages over ROS bridge | Basic headset telemetry (Batter precentage) | Launch over ADB | . ",
+    "url": "/QuestSLAM#current-features",
+    
+    "relUrl": "/QuestSLAM#current-features"
+  },"4": {
+    "doc": "QuestSLAM",
+    "title": "Features to come",
+    "content": ". | Streaming of video from onboard cameras | Aprial tag recognition and assigning a transform to it | ",
+    "url": "/QuestSLAM#features-to-come",
+    
+    "relUrl": "/QuestSLAM#features-to-come"
+  },"5": {
+    "doc": "QuestSLAM",
+    "title": "intergration into nav stack",
+    "content": "| . ",
+    "url": "/QuestSLAM#intergration-into-nav-stack",
+    
+    "relUrl": "/QuestSLAM#intergration-into-nav-stack"
+  },"6": {
+    "doc": "QuestSLAM",
+    "title": "How to use",
+    "content": ". | Download the latest version from Tags | Install the APK (2 options) - Sidequest - ADB shell (adb install “path to apk”) | Launch the app over ADB - adb shell am start -n com.kirvilnet.QuestSLAM/com.unity3d.player.UnityPlayerGameActivity -e \"ip\" \"Bridge Server IP\" - port is 9090 | Enjoy | . ",
+    "url": "/QuestSLAM#how-to-use",
+    
+    "relUrl": "/QuestSLAM#how-to-use"
+  },"7": {
+    "doc": "QuestSLAM",
+    "title": "QuestSLAM",
+    "content": ". ",
+    "url": "/QuestSLAM",
+    
+    "relUrl": "/QuestSLAM"
+  },"8": {
+    "doc": "Home",
+    "title": "test",
+    "content": " ",
+    "url": "/#test",
+    
+    "relUrl": "/#test"
+  },"9": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  }
+}

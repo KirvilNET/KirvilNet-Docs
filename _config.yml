@@ -1,16 +1,19 @@
 # Setup
-title: Your Website Title
-tagline: Your Website Tagline
-url: https://devpractical.com
+title: KirvilNET Docs
+tagline: Documentation for all KirvilNET projects
+url: https://docs.kirvilnet..com
 paginate: 3
 baseurl: ""
 permalink: pretty
+
+theme: just-the-docs
 
 # Gems
 plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # Optimize Jekyll
 exclude:
@@ -36,3 +39,7 @@ author:
 
 # Custom vars
 version: 3.0.0
+
+#Just the docs
+color_scheme: dark
+nav_enabled: true
