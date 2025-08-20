@@ -1,67 +1,228 @@
 {"0": {
+    "doc": "App Setup",
+    "title": "QuestSLAM install",
+    "content": " ",
+    "url": "/Docs/QuestSLAM/App%20Setup/#questslam-install",
+    
+    "relUrl": "/Docs/QuestSLAM/App%20Setup/#questslam-install"
+  },"1": {
+    "doc": "App Setup",
+    "title": "Requirements",
+    "content": ". | ADB (Android Debug Bridge) | MQDH (Meta Quest Developer Hub) | . ",
+    "url": "/Docs/QuestSLAM/App%20Setup/#requirements",
+    
+    "relUrl": "/Docs/QuestSLAM/App%20Setup/#requirements"
+  },"2": {
+    "doc": "App Setup",
+    "title": "Instalation",
+    "content": ". | To begin plugin the headset to your computer and run adb tcpip 5555 | Install the QuestSLAM application through MQDH | . On the first launch you will have to have the headset on to allow permissions . | Launch the app with adb shell am start -n \"com.kirvilnet.QuestSLAM/com.unity3d.player.UnityPlayerGameActivity | . ",
+    "url": "/Docs/QuestSLAM/App%20Setup/#instalation",
+    
+    "relUrl": "/Docs/QuestSLAM/App%20Setup/#instalation"
+  },"3": {
+    "doc": "App Setup",
+    "title": "Command Arguements",
+    "content": "These need to be placed after a -e tag . | Arguement | Description | Default. | Example | Required | . | \"ip\" | ip of rosbridge | \"0.0.0.0\" | “10.7.1.10” | ✅ | . | \"port\" | port of rosbridge | \"9090\" | “9090” | ✅ | . | \"id\" | ID of the QuestSLAM instance. | \"0\" | “567” | ✅ | . ",
+    "url": "/Docs/QuestSLAM/App%20Setup/#command-arguements",
+    
+    "relUrl": "/Docs/QuestSLAM/App%20Setup/#command-arguements"
+  },"4": {
+    "doc": "App Setup",
+    "title": "App Setup",
+    "content": " ",
+    "url": "/Docs/QuestSLAM/App%20Setup/",
+    
+    "relUrl": "/Docs/QuestSLAM/App%20Setup/"
+  },"5": {
+    "doc": "Device Setup",
+    "title": "Developer account",
+    "content": ". | Follow this guide to enable developer mode | Download the Meta Quest Developer Hub (MQDH) | . ",
+    "url": "/Docs/QuestSLAM/Device%20Setup/#developer-account",
+    
+    "relUrl": "/Docs/QuestSLAM/Device%20Setup/#developer-account"
+  },"6": {
+    "doc": "Device Setup",
+    "title": "Disable Gaurdian",
+    "content": ". | Gaurdian must be disabled to prevent app interuptions and relilablity issues. | Navigate to Settings → Advanced → Experimental Settings → Enable Custom Settings | Turn OFF Physical Space Features, MTP Notification, and Link Auto Connect | . ",
+    "url": "/Docs/QuestSLAM/Device%20Setup/#disable-gaurdian",
+    
+    "relUrl": "/Docs/QuestSLAM/Device%20Setup/#disable-gaurdian"
+  },"7": {
+    "doc": "Device Setup",
+    "title": "Disable Bluetooth",
+    "content": ". | Bluetooth can be disabled with adb shell svc bluetooth disable | . ",
+    "url": "/Docs/QuestSLAM/Device%20Setup/#disable-bluetooth",
+    
+    "relUrl": "/Docs/QuestSLAM/Device%20Setup/#disable-bluetooth"
+  },"8": {
+    "doc": "Device Setup",
+    "title": "Ethernet Setup",
+    "content": " ",
+    "url": "/Docs/QuestSLAM/Device%20Setup/#ethernet-setup",
+    
+    "relUrl": "/Docs/QuestSLAM/Device%20Setup/#ethernet-setup"
+  },"9": {
+    "doc": "Device Setup",
+    "title": "Pick a ethernet adapter",
+    "content": "Here is a list of working ethernet adapters that work with the quest 3/3s. All of these provide both power and ethernet conncetions to the headset . | Cable Matters 5-Port USB-C Hub On-The-Go | onn. 8-in-1 USB-C Adapter, USB 3.0 and 4K HDMI Compatible | Belkin Connect USB-C to Ethernet + Charge Adapter 100W | . ",
+    "url": "/Docs/QuestSLAM/Device%20Setup/#pick-a-ethernet-adapter",
+    
+    "relUrl": "/Docs/QuestSLAM/Device%20Setup/#pick-a-ethernet-adapter"
+  },"10": {
+    "doc": "Device Setup",
+    "title": "Pluging in",
+    "content": "Plugin the adapter and connect the ethernet and power from a relilable poewer source . Wifi must be disabled to prevent conflicts with adb shell svc wifi disable . ",
+    "url": "/Docs/QuestSLAM/Device%20Setup/#pluging-in",
+    
+    "relUrl": "/Docs/QuestSLAM/Device%20Setup/#pluging-in"
+  },"11": {
+    "doc": "Device Setup",
+    "title": "Power Requirements",
+    "content": "The internal quest battery provides around 2.5 hours of use . Power sources must be able to supply 5v at 3A to charge the headset while in use . This could be done in 2 ways . | USB Power bank | 5v regulator connected to the robots battery | POE to usbc adapter | . ",
+    "url": "/Docs/QuestSLAM/Device%20Setup/#power-requirements",
+    
+    "relUrl": "/Docs/QuestSLAM/Device%20Setup/#power-requirements"
+  },"12": {
+    "doc": "Device Setup",
+    "title": "Mounting",
+    "content": "Mounting the Quest in an optimal location is important for the operation of the QuestSLAM application . ",
+    "url": "/Docs/QuestSLAM/Device%20Setup/#mounting",
+    
+    "relUrl": "/Docs/QuestSLAM/Device%20Setup/#mounting"
+  },"13": {
+    "doc": "Device Setup",
+    "title": "Mounts",
+    "content": "There are a variety of mounts made by first robotics teams . | Mount by 3847 spectrum | This other one from printables | . ",
+    "url": "/Docs/QuestSLAM/Device%20Setup/#mounts",
+    
+    "relUrl": "/Docs/QuestSLAM/Device%20Setup/#mounts"
+  },"14": {
+    "doc": "Device Setup",
+    "title": "Mounting position",
+    "content": ". | Mount the headset at least 12 inches (30cm) above the floor. | Make sure the headset has a clear view. | Make sure it will not be blocked by moving parts | . ",
+    "url": "/Docs/QuestSLAM/Device%20Setup/#mounting-position",
+    
+    "relUrl": "/Docs/QuestSLAM/Device%20Setup/#mounting-position"
+  },"15": {
+    "doc": "Device Setup",
+    "title": "Best Pratices",
+    "content": ". | Cable Type: CAT5e or CAT6 Ethernet cable | Length: Ideally under 3 feet (1 meter) | Shielded: Recommended in high-EMI environments | Strain Relief: Consider right-angle connectors if space is limited | . ",
+    "url": "/Docs/QuestSLAM/Device%20Setup/#best-pratices",
+    
+    "relUrl": "/Docs/QuestSLAM/Device%20Setup/#best-pratices"
+  },"16": {
+    "doc": "Device Setup",
+    "title": "Device Setup",
+    "content": "Before we can use the QuestSLAM app we have to configure the headset to optimize it for QuestSLAM . ",
+    "url": "/Docs/QuestSLAM/Device%20Setup/",
+    
+    "relUrl": "/Docs/QuestSLAM/Device%20Setup/"
+  },"17": {
+    "doc": "Getting Started",
+    "title": "Requirements",
+    "content": ". | ROS2 Instalation | A LAN network (wireless or ethernet) | (optiona but reccomended) usb-c to LAN adapter | . ",
+    "url": "/Docs/QuestSLAM/Getting_Started/#requirements",
+    
+    "relUrl": "/Docs/QuestSLAM/Getting_Started/#requirements"
+  },"18": {
+    "doc": "Getting Started",
+    "title": "Getting Started",
+    "content": " ",
+    "url": "/Docs/QuestSLAM/Getting_Started/",
+    
+    "relUrl": "/Docs/QuestSLAM/Getting_Started/"
+  },"19": {
     "doc": "QuestSLAM",
     "title": "QuestSLAM",
     "content": "This project enables streaming of Quest3/3s tracking information over ROS Bridge for SLAM Mapping. This pose information can be used to localize a robot in 3 dimentional space while being light and cost effective. The sensors aboard the Quest3 and 3s have an accuracy of . ",
     "url": "/QuestSLAM#questslam",
     
     "relUrl": "/QuestSLAM#questslam"
-  },"1": {
+  },"20": {
     "doc": "QuestSLAM",
     "title": "Key Features",
     "content": ". | Self-contained, rechargeable battery | Network based data transmission (wired and wireless) | Up to 120Hz tracking refresh rate | Built on Unity allowing for easy modification for special use cases | Powered by Qualcomm XR2G2 platform with multiple CPU/GPU cores, 8GB RAM, dedicated video hardware, and 128GB+ storage | . ",
     "url": "/QuestSLAM#key-features",
     
     "relUrl": "/QuestSLAM#key-features"
-  },"2": {
+  },"21": {
     "doc": "QuestSLAM",
     "title": "How it works",
-    "content": "QuestSLAM is built on the Quest Visual-Inertial Odometry (VIO) system allowing it to track in 3d space with high levels of accuracy. | Capture data (IMU, VIO, Accelerometer) | Process data and add corvaience | Convert Unity coordinates to ROS cooordinates | Generate ROS2 messages (Odometry, Battery%, Velocity) | Send data over network (Ethernet or Wireless) | . ",
+    "content": "QuestSLAM is built on the Quest Visual-Inertial Odometry (VIO) system allowing it to track in 3d space with high levels of accuracy. | Capture data (IMU, VIO, Accelerometer) | Process data and add corvaience | Convert Unity coordinates to ROS cooordinates | Generate ROS2 messages (Odometry, Battery%, Velocity, camera, tracking status, aprialtag position) | Send data over network (Ethernet or Wireless) | . ",
     "url": "/QuestSLAM#how-it-works",
     
     "relUrl": "/QuestSLAM#how-it-works"
-  },"3": {
+  },"22": {
     "doc": "QuestSLAM",
     "title": "Current Features",
     "content": ". | Odometry messages over ROS bridge | Basic headset telemetry (Batter precentage) | Launch over ADB | . ",
     "url": "/QuestSLAM#current-features",
     
     "relUrl": "/QuestSLAM#current-features"
-  },"4": {
+  },"23": {
     "doc": "QuestSLAM",
     "title": "Features to come",
-    "content": ". | Streaming of video from onboard cameras | Aprial tag recognition and assigning a transform to it | ",
+    "content": ". | Streaming of video from onboard cameras | Aprial tag recognition and assigning a transform to it | intergration into nav stack | . ",
     "url": "/QuestSLAM#features-to-come",
     
     "relUrl": "/QuestSLAM#features-to-come"
-  },"5": {
-    "doc": "QuestSLAM",
-    "title": "intergration into nav stack",
-    "content": "| . ",
-    "url": "/QuestSLAM#intergration-into-nav-stack",
-    
-    "relUrl": "/QuestSLAM#intergration-into-nav-stack"
-  },"6": {
-    "doc": "QuestSLAM",
-    "title": "How to use",
-    "content": ". | Download the latest version from Tags | Install the APK (2 options) - Sidequest - ADB shell (adb install “path to apk”) | Launch the app over ADB - adb shell am start -n com.kirvilnet.QuestSLAM/com.unity3d.player.UnityPlayerGameActivity -e \"ip\" \"Bridge Server IP\" - port is 9090 | Enjoy | . ",
-    "url": "/QuestSLAM#how-to-use",
-    
-    "relUrl": "/QuestSLAM#how-to-use"
-  },"7": {
+  },"24": {
     "doc": "QuestSLAM",
     "title": "QuestSLAM",
     "content": ". ",
     "url": "/QuestSLAM",
     
     "relUrl": "/QuestSLAM"
-  },"8": {
-    "doc": "Home",
-    "title": "test",
-    "content": " ",
-    "url": "/#test",
+  },"25": {
+    "doc": "ROS2 configuration",
+    "title": "Intro",
+    "content": "This covers all of the ros2 topics, services, and actions and their usage. ",
+    "url": "/QuestSLAM/ros#intro",
     
-    "relUrl": "/#test"
-  },"9": {
+    "relUrl": "/QuestSLAM/ros#intro"
+  },"26": {
+    "doc": "ROS2 configuration",
+    "title": "Topics",
+    "content": "| Topic | Topic Type | Descriptions | . | QuestSLAM/\"id\"/battery_level | std_msgs/Float32 | battery level as a float 0-100. | . | QuestSLAM/\"id\"/camera | sensor_msgs/Image | Image stream from the left camera. | . | QuestSLAM/\"id\"/odom | nav_msgs/msg/Odometry | Location of the headset as an odometry message. | . | QuestSLAM/\"id\"/is_tracking | std_msgs/bool | Tracking status. | . | QuestSLAM/\"id\"/apriatags | ID of the QuestSLAM instance. | AprialTags as a transform. One transform per tag detected | . ",
+    "url": "/QuestSLAM/ros#topics",
+    
+    "relUrl": "/QuestSLAM/ros#topics"
+  },"27": {
+    "doc": "ROS2 configuration",
+    "title": "Services",
+    "content": " ",
+    "url": "/QuestSLAM/ros#services",
+    
+    "relUrl": "/QuestSLAM/ros#services"
+  },"28": {
+    "doc": "ROS2 configuration",
+    "title": "ROS2 configuration",
+    "content": " ",
+    "url": "/QuestSLAM/ros",
+    
+    "relUrl": "/QuestSLAM/ros"
+  },"29": {
+    "doc": "Home",
+    "title": "Welcome!",
+    "content": "This is a documentation site for all KirvilNET opensource projects . ",
+    "url": "/#welcome",
+    
+    "relUrl": "/#welcome"
+  },"30": {
+    "doc": "Home",
+    "title": "Current Projects",
+    "content": " ",
+    "url": "/#current-projects",
+    
+    "relUrl": "/#current-projects"
+  },"31": {
+    "doc": "Home",
+    "title": "QuestSLAM",
+    "content": "Using the quest 3 as a slam sensor in ROS2 . ",
+    "url": "/#questslam",
+    
+    "relUrl": "/#questslam"
+  },"32": {
     "doc": "Home",
     "title": "Home",
     "content": " ",

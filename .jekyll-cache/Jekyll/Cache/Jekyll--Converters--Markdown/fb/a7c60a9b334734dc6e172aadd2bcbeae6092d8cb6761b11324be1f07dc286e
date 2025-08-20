@@ -1,0 +1,43 @@
+I"I<p><a href="https://github.com/KirvilNET/QuestSLAM/actions/workflows/build.yml"><img src="https://github.com/KirvilNET/QuestSLAM/actions/workflows/build.yml/badge.svg?event=status" alt="Build QuestSLAM App" /></a></p>
+
+<h1 id="questslam">QuestSLAM</h1>
+
+<p>This project enables streaming of Quest3/3s tracking information over ROS Bridge for SLAM Mapping. This pose information can be used to localize a robot in 3 dimentional space while being light and cost effective. The sensors aboard the Quest3 and 3s have an accuracy of</p>
+
+<h1 id="key-features">Key Features</h1>
+<ul>
+  <li>Self-contained, rechargeable battery</li>
+  <li>Network based data transmission (wired and wireless)</li>
+  <li>Up to 120Hz tracking refresh rate</li>
+  <li>Built on Unity allowing for easy modification for special use cases</li>
+  <li>Powered by Qualcomm XR2G2 platform with multiple CPU/GPU cores, 8GB RAM, dedicated video hardware, and 128GB+ storage</li>
+</ul>
+
+<h1 id="how-it-works">How it works</h1>
+<p>QuestSLAM is built on the Quest Visual-Inertial Odometry (VIO) system allowing it to track in 3d space with high levels of accuracy.</p>
+
+<ul>
+  <li>Capture data (IMU, VIO, Accelerometer)</li>
+  <li>Process data and add corvaience</li>
+  <li>Convert Unity coordinates to ROS cooordinates</li>
+  <li>Generate ROS2 messages (Odometry, Battery%, Velocity, camera, tracking status, aprialtag position)</li>
+  <li>Send data over network (Ethernet or Wireless)</li>
+</ul>
+
+<h1 id="current-features">Current Features</h1>
+
+<ul>
+  <li>Odometry messages over ROS bridge</li>
+  <li>Basic headset telemetry (Batter precentage)</li>
+  <li>Launch over ADB</li>
+</ul>
+
+<h1 id="features-to-come">Features to come</h1>
+
+<ul>
+  <li>Streaming of video from onboard cameras</li>
+  <li>Aprial tag recognition and assigning a transform to it</li>
+  <li>intergration into nav stack</li>
+</ul>
+
+:ET

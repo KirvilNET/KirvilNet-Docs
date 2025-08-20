@@ -1,6 +1,7 @@
 ---
 title: QuestSLAM 
 layout: home
+nav_order: 2
 permalink: /QuestSLAM
 ---
 
@@ -23,7 +24,7 @@ QuestSLAM is built on the Quest Visual-Inertial Odometry (VIO) system allowing i
 - Capture data (IMU, VIO, Accelerometer)
 - Process data and add corvaience
 - Convert Unity coordinates to ROS cooordinates
-- Generate ROS2 messages (Odometry, Battery%, Velocity)
+- Generate ROS2 messages (Odometry, Battery%, Velocity, camera, tracking status, aprialtag position)
 - Send data over network (Ethernet or Wireless)
 
 # Current Features
@@ -37,16 +38,5 @@ QuestSLAM is built on the Quest Visual-Inertial Odometry (VIO) system allowing i
 - Streaming of video from onboard cameras 
 - Aprial tag recognition and assigning a transform to it 
 - intergration into nav stack
--
 
-# How to use 
-
-- Download the latest version from Tags
-- Install the APK (2 options)
-		- Sidequest
-		- ADB shell (adb install "path to apk")
-- Launch the app over ADB
-		- `adb shell am start -n com.kirvilnet.QuestSLAM/com.unity3d.player.UnityPlayerGameActivity -e "ip" "Bridge Server IP"`
-		- port is 9090
-- Enjoy
 

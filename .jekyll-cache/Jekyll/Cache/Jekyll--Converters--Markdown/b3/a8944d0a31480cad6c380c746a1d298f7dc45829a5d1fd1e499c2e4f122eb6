@@ -1,0 +1,59 @@
+I"H	<h1 id="questslam-install">QuestSLAM install</h1>
+
+<h2 id="requirements">Requirements</h2>
+<ul>
+  <li>ADB (Android Debug Bridge)</li>
+  <li>MQDH (Meta Quest Developer Hub)</li>
+</ul>
+
+<h2 id="instalation">Instalation</h2>
+<ol>
+  <li>To begin plugin the headset to your computer and run <code class="language-plaintext highlighter-rouge">adb tcpip 5555</code></li>
+  <li>Install the QuestSLAM application through MQDH</li>
+</ol>
+
+<p class="note"><strong>On the first launch you will have to have the headset on to allow permissions</strong></p>
+
+<ol>
+  <li>Launch the app with <code class="language-plaintext highlighter-rouge">adb shell am start -n "com.kirvilnet.QuestSLAM/com.unity3d.player.UnityPlayerGameActivity</code></li>
+</ol>
+
+<h2 id="command-arguements">Command Arguements</h2>
+<p>These need to be placed after a <code class="language-plaintext highlighter-rouge">-e</code> tag</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Arguement</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: left">Default.</th>
+      <th style="text-align: left">Example</th>
+      <th style="text-align: left">Required</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">"ip"</code></td>
+      <td style="text-align: left">ip of rosbridge</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">"0.0.0.0"</code></td>
+      <td style="text-align: left">“10.7.1.10”</td>
+      <td style="text-align: left">✅</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">"port"</code></td>
+      <td style="text-align: left">port of rosbridge</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">"9090"</code></td>
+      <td style="text-align: left">“9090”</td>
+      <td style="text-align: left">✅</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">"id"</code></td>
+      <td style="text-align: left">ID of the QuestSLAM instance.</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">"0"</code></td>
+      <td style="text-align: left">“567”</td>
+      <td style="text-align: left">✅</td>
+    </tr>
+  </tbody>
+</table>
+
+:ET

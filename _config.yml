@@ -29,17 +29,32 @@ sass:
   sass_dir: _sass
   style: :compressed
 
-# Options
-
-# Specify the author for blog posts
-author:
-  name: Avic Ndugu
-  url: https://https://twitter.com/_ndugu
-  email: avicndugu1234@gmail.com
-
 # Custom vars
 version: 3.0.0
 
 #Just the docs
 color_scheme: dark
 nav_enabled: true
+
+aux_links:
+  "KirvilNET on GitHub":
+    - "https://github.com/KirvilNET/"
+    
+aux_links_new_tab: false
+
+callouts:
+  warning:
+    title: Warning
+    color: red
+  note:
+    title: Note
+    color: purple
+  tip:
+    title: Tip
+    color: green
+  highlight:
+    title: Highlight
+    color: yellow
+  important:
+    title: Important
+    color: blue

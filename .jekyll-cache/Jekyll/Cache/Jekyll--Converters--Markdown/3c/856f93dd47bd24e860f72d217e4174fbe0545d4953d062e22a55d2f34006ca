@@ -1,0 +1,78 @@
+I"�<p>Before we can use the QuestSLAM app we have to configure the headset to optimize it for QuestSLAM</p>
+<h1 id="developer-account">Developer account</h1>
+<ul>
+  <li>Follow <a href="https://medium.com/sidequestvr/how-to-turn-on-developer-mode-for-the-quest-3-509244ccd386">this guide</a> to enable developer mode</li>
+  <li>Download the <a href="https://developers.meta.com/horizon/develop">Meta Quest Developer Hub (MQDH)</a></li>
+</ul>
+
+<h1 id="disable-gaurdian">Disable Gaurdian</h1>
+<ul>
+  <li>Gaurdian must be disabled to prevent app interuptions and relilablity issues.</li>
+  <li>Navigate to <strong>Settings → Advanced → Experimental Settings → Enable Custom Settings</strong></li>
+  <li>Turn OFF <strong>Physical Space Features, MTP Notification, and Link Auto Connect</strong></li>
+</ul>
+
+<h1 id="disable-bluetooth">Disable Bluetooth</h1>
+<ul>
+  <li>Bluetooth can be disabled with <code class="language-plaintext highlighter-rouge">adb shell svc bluetooth disable</code></li>
+</ul>
+
+<h1 id="ethernet-setup">Ethernet Setup</h1>
+
+<h2 id="pick-a-ethernet-adapter">Pick a ethernet adapter</h2>
+<p>Here is a list of working ethernet adapters that work with the quest 3/3s. All of these provide both power and ethernet conncetions to the headset</p>
+
+<ul>
+  <li><a href="https://a.co/d/72hhWqz">Cable Matters 5-Port USB-C Hub On-The-Go</a></li>
+  <li><a href="https://www.walmart.com/ip/onn-8-in-1-USB-C-Adapter-USB-3-0-and-4K-HDMI-Compatible/590617670">onn. 8-in-1 USB-C Adapter, USB 3.0 and 4K HDMI Compatible</a></li>
+  <li><a href="https://a.co/d/grTsVxG">Belkin Connect USB-C to Ethernet + Charge Adapter 100W</a></li>
+</ul>
+
+<hr />
+<h2 id="pluging-in">Pluging in</h2>
+<p>Plugin the adapter and connect the ethernet and power from a relilable poewer source</p>
+
+<p class="note">Wifi must be disabled to prevent conflicts with <code class="language-plaintext highlighter-rouge">adb shell svc wifi disable</code></p>
+
+<h2 id="power-requirements">Power Requirements</h2>
+<p>The internal quest battery provides around 2.5 hours of use</p>
+
+<p class="warning">Power sources must be able to supply 5v at 3A to charge the headset while in use</p>
+
+<p>This could be done in 2 ways</p>
+<blockquote>
+  <ol>
+    <li>USB Power bank</li>
+    <li>5v regulator connected to the robots battery</li>
+    <li>POE to usbc adapter</li>
+  </ol>
+</blockquote>
+
+<h1 id="mounting">Mounting</h1>
+<p>Mounting the Quest in an optimal location is important for the operation of the QuestSLAM application</p>
+
+<h2 id="mounts">Mounts</h2>
+<p>There are a variety of mounts made by first robotics teams</p>
+
+<ul>
+  <li><a href="https://www.printables.com/model/1115821-spectrum-3847-quest-3s-robot-mount/related">Mount by 3847 spectrum</a></li>
+  <li><a href="https://www.printables.com/model/1324702-quest-3-headset-mount-for-robots-and-autonomous-ve?lang=de">This other one from printables</a></li>
+</ul>
+
+<h2 id="mounting-position">Mounting position</h2>
+
+<ul>
+  <li>Mount the headset at least 12 inches (30cm) above the floor.</li>
+  <li>Make sure the headset has a clear view.</li>
+  <li>Make sure it will not be blocked by moving parts</li>
+</ul>
+
+<h1 id="best-pratices">Best Pratices</h1>
+
+<ul>
+  <li><strong>Cable Type:</strong> CAT5e or CAT6 Ethernet cable</li>
+  <li><strong>Length:</strong> Ideally under 3 feet (1 meter)</li>
+  <li><strong>Shielded:</strong> Recommended in high-EMI environments</li>
+  <li><strong>Strain Relief:</strong> Consider right-angle connectors if space is limited</li>
+</ul>
+:ET
